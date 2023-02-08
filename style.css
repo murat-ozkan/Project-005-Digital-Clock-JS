@@ -10,11 +10,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate3d(-50%, -50%);
+  transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .clock > div {
   position: relative;
   background: yellowgreen;
@@ -29,8 +30,8 @@ body {
   border: 1px solid gray;
   color: black;
   overflow: hidden;
-  z-index: 1;
 }
+
 .clock > div:before {
   position: absolute;
   bottom: 0px;
@@ -43,6 +44,7 @@ body {
   letter-spacing: 1px;
   background: #fff;
 }
+
 .clock > div.hours:before {
   content: "Hours";
 }
