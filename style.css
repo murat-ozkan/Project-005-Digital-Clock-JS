@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: blue;
+  background: white;
 }
 .clock {
   position: absolute;
@@ -27,7 +27,9 @@ body {
   border-radius: 10px;
   box-shadow: 0px 10px 15px 5px green;
   border: 1px solid gray;
-  color: violet;
+  color: black;
+  overflow: hidden;
+  z-index: 1;
 }
 .clock > div:before {
   position: absolute;
